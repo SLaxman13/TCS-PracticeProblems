@@ -1,0 +1,6 @@
+a = list(map(int,input().split()))
+b = len(a)
+c = b*(b+1) // 2
+e = sum(a)
+d = c - e
+print(d)
