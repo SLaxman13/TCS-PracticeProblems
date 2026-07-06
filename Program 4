@@ -1,0 +1,10 @@
+a = list(map(int,input().split()))
+b = int(input())
+seen = {}
+for i in range(len(a)):
+    c = b-a[i]
+    if c in seen:
+        print(seen[c],i)
+        break
+    else:
+        seen[a[i]] = i
