@@ -1,0 +1,10 @@
+a = list(map(int,input().split()))
+large=0
+second = 0
+for i in range(len(a)):
+    if a[i] > large:
+        second=large
+        large= a[i]
+    if a[i]> second and a[i]!= large:
+        second=a[i]
+print(second)
