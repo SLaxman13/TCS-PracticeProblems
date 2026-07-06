@@ -1,0 +1,5 @@
+a = input()
+l =[]
+for i in str(a):
+    l.append(int(i))
+print(sum(l))
