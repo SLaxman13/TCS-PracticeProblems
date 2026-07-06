@@ -1,0 +1,7 @@
+a = list(map(int,input().split()))
+b = a[0]
+c = a[0]
+for i in range(len(a)):
+    b = max(a[i],b+a[i])
+    c= max(c,b)
+print(c)
