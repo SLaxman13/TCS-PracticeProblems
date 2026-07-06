@@ -1,0 +1,6 @@
+a = list(map(int,input().split()))
+large= a[0]
+for i in range(len(a)):
+    if a[i]>large:
+        large= a[i]
+print(large)
